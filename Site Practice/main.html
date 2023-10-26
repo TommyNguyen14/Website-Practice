@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0" />
+    <title>Site Practice</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/50afcd6836.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <div class="navcontainer">
+        <nav>
+            <ul class="navbar__menu">
+                <ul class="navbar_menu">
+                    <li class="navbar_items">
+                        <a href="#home" class="navbar_link">home</a>
+                    </li>
+                    <li class="navbar_items">
+                        <a href="#about" class="navbar_link">about</a>
+                    </li>
+                    <li class="navbar_items">
+                        <a href="#skills" class="navbar_link">skills</a>
+                    </li>
+                    <li class="navbar_items">
+                        <button class="navbar_link contactbtn" id="contact-btn"><a href="#contact"><span>CONTACT ME</span></a></button>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Home Section-->
+    <section id="home">
+        <div class="home container">
+            <img class="heroimg" src="images/hero-bg.jpg">
+            <div class="hometype">
+                <h1>Hey! <span class="auto-type"></span></h1>
+            </div>
+            <div class="herobutton">
+                <a href="#about" type="button" class="cta" id="homebtn">More below</a>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about">
+        <div class="about container">
+            <div class="about-top">
+                <div class="abouttext">
+                    <h1 class="section-title">About Me</h1>
+                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+
+                </div>
+                <img src="images/undraw_conference_speaker_re_1rna.svg" class="aboutimg">
+            </div>
+        </div>
+    </section>
+
+    <!--Skills Section-->
+
+    <section id="skills">
+        <style>
+            ul {
+                list-style-type: none;
+            }
+        </style>
+        <div class="bg"></div>
+        <div class="skills container">
+            <h1 class="section-title">Skills</h1>
+            <div class="skills-top">
+                <div class="skills-item">
+                    <h2 class="sectionhead">Frontend</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <div class="skills-item">
+                    <h2 class="sectionhead">Backend</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <div class="skills-item">
+                    <h2 class="sectionhead">Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <div class="skills-progress">
+                    <ul>
+                        <li>HTML</li>
+                        <progress min="0" max="100" value="80"></progress></br>
+                        <li>CSS</li>
+                        <progress min="0" max="100" value="75"></progress></br>
+                        <li>JavaScript</li>
+                        <progress min="0" max="100" value="5"></progress></br>
+                        <li>jQuery</li>
+                        <progress min="0" max="100" value="0"></progress></br>
+                    </ul>
+                </div>
+                <div class="skills-progress">
+                    <ul>
+                        <li>Python</li>
+                        <progress min="0" max="100" value="30"></progress></br>
+                        <li>PHP</li>
+                        <progress min="0" max="100" value="0"></progress></br>
+                        <li>Ruby</li>
+                        <progress min="0" max="100" value="0"></progress></br>
+                        <li>SQL</li>
+                        <progress min="0" max="100" value="0"></progress></br>
+                    </ul>
+                </div>
+                <div class="skills-progress">
+                    <ul>
+                        <li>Photoshop</li>
+                        <progress min="0" max="100" value="85"></progress></br>
+                        <li>Premiere Pro</li>
+                        <progress min="0" max="100" value="90"></progress></br>
+                        <li>After Effects</li>
+                        <progress min="0" max="100" value="80"></progress></br>
+                        <li>Gimp</li>
+                        <progress min="0" max="100" value="60"></progress></br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        </div>
+        <div class="contcontainer">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <h2>Address</h2>
+                        <p>1234 Apple Street,<br>Wyoming,<br>03940</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="text">
+                        <h2>Email</h2>
+                        <p>tommy.nguy14@gmail.com</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <h2>Phone</h2>
+                        <p>(703) 832-1962</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactform">
+                <form>
+                    <h2>Have any questions?</h2>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" id="send" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Footer Section-->
+    <section id="footer">
+        <div class="footer__container">
+            <div class="footertitle">
+                <h1>TOMMY NGUYEN</h1>
+            </div>
+            <div class="address">
+                <p>1234 Apple Street, WY 03940</p>
+            </div>
+            <div class="phone">
+                <p>P: (703) 832-1962</p>
+            </div>
+            <div class="copyright">
+                <p>Copyright Ⓒ 2017. All Rights Reserved<br>Custom Designed by Tommy Nguyen</p>
+            </div>
+            <div class="socials">
+                <div class="iconx">
+                    <a href="https://github.com/TommyNguyen14" type="button"></a><i class="fa-brands fa-github"></i>
+                </div>
+                <div class="iconx">
+                    <a href="https://www.linkedin.com/in/tommy-nguyen-559429203/" type="button"></a><i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="button__container">
+                <div class="buttons">
+                    <a href="#home" type="button">Home</a>
+                    <a href="#about" type="button">About Me</a>
+                    <a href="#skills" type="button">Skills</a>
+                    <a href="#contact" type="button">Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Typing JS-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["My name is Tommy!"],
+            typeSpeed: 180,
+            backSpeed: 180,
+            loop: true
+        })
+    </script>
+
+    <script type="text/javascript">
+        const navbarLinks = document.querySelectorAll('.navbar_link');
+
+        navbarLinks.forEach(link => {
+            link.addEventListener('click', (event) => {
+                navbarLinks.forEach(link => link.classList.remove('active'));
+                event.currentTarget.classList.add('active');
+            });
+        });
+    </script>
+</body>
+
+
+</html>
